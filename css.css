@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 de set. de 2024, 13:37:38
+    Author     : nicole_a_reis
+*/
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Garamond', serif;
+    background: url('https://i.postimg.cc/x8cgztPg/bb.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    flex-direction: column;
+
+    
+}
+
+.logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.divLogin {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(1, 1, 1, 1);
+   
+   
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Garamond', serif;
+    color: #3b5998;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="password"] {
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #4a4a4a;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100%;
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+.mensagem {
+    display: none;
+}
+
+h2 {
+    color: #3b5998;
+    text-align: center;
+}
